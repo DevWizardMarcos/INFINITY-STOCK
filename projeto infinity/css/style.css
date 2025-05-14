@@ -41,7 +41,7 @@ header{
     font-size: 2rem;
     position: relative;
     top: 1rem;
-  font-family: 'Accord Alternate';
+    font-family: 'Accord Alternate';
 }
 
 #conteudo_principal{
@@ -69,11 +69,21 @@ header{
 
 }
 
+
+
+#conteudo_principal, .container h1, .teste{
+    position: relative;
+    right: rem;
+}
+
 #conteudo_principal h1{
     font-size: 8rem;
     color: #ffff;
     text-align: center;
     font-family: poppins;
+    position: relative;
+    top: 8rem;
+    z-index: 2;
 
 }
 
@@ -82,13 +92,12 @@ header{
     font-size: 8rem;
     color: #e5373f;
     text-align: center;
-    top: -5rem;
+    top: 19px;
     position: relative;
-    z-index: 2;
     left: 2rem;
     font-family: poppins;
-  font-weight: bold;
-
+    font-weight: bold;
+    z-index: 3;
 }
 
 
