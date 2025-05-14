@@ -1,0 +1,105 @@
+
+@font-face {
+  font-family: 'Accord Alternate';
+  src: url('./fonts/AccordAlt-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    font-size: 20px;
+}
+
+
+
+#banner{
+    background-color: #e5373f;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    position: relative;
+    right: 2rem;
+    
+    }
+
+
+#principal{
+    width: 90%;
+    padding: 20px ;
+    background-color: #e5373f;
+    color: #ffff;
+    font-size: 2rem;
+    position: relative;
+    top: 1rem;
+  font-family: 'Accord Alternate';
+}
+
+#conteudo_principal{
+    width: 100%;
+    height: 60vh;
+    padding: 20px ;
+    background-color: black;
+    color: #ffff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 2px;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#conteudo_principal h1{
+    font-size: 8rem;
+    color: #ffff;
+    text-align: center;
+    font-family: poppins;
+
+}
+
+
+#conteudo_principal h2{
+    font-size: 8rem;
+    color: #e5373f;
+    text-align: center;
+    top: -5rem;
+    position: relative;
+    z-index: 2;
+    left: 2rem;
+    font-family: poppins;
+  font-weight: bold;
+
+}
+
+
+
+
+#conteudo_footer{
+    width: 90%;
+    padding: 20px ;
+    background-color: #e5373f;
+    position: relative;
+    left: 7rem;
+    height: 5rem;
+}
+    
