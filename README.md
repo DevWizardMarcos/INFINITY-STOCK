@@ -1,4 +1,3 @@
-Aqui está uma sugestão para melhorar seu README e torná-lo mais atrativo para recrutadores. O objetivo é destacar suas habilidades, tecnologias utilizadas, diferenciais do projeto e facilitar a compreensão do seu trabalho.
 
 ---
 
